@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  background-color: #111727;
+}
+
+main {
+  display: flex;
+}
+
+.SongBarHome {
+  position: fixed;
+  background-color: rgba(184, 184, 184, 0.1);
+  backdrop-filter: blur(1rem);
+  border-top: 2.5px solid rgba(184, 184, 184, 0.3);
+  height: 6rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  animation: slideup 1s ease-in-out;
+  z-index: 100;
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+@keyframes slideup {
+  from {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* --color1: #0d141f; */
+  --color1: #05111f;
+  --color2: #eea47fff;
+}
+body {
+  background-color: var(--color1);
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  /* min-height: 100vh; */
+}

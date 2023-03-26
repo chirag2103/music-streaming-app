@@ -1,0 +1,18 @@
+.SongsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 60rem;
+  margin-left: 2rem;
+  /* margin-top: 1rem; */
+  padding: 1rem;
+  /* margin: 5rem; */
+  /* border: 1px solid red; */
+}
+
+@media (min-width: 640px) {
+  .SongsContainer {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,100 @@
+.search-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.div-search-outter{
+  padding: 20px 0 20px 20px;
+  background-image: url(./bg01.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -15rem;
+  /* background-position-y: -18rem; */
+  /* background-color: #0b1320; */
+  border-bottom-right-radius: 20px;
+  /* border-bottom-left-radius: 20px; */
+  /* border: 2px solid #a7bde9; */
+  /* margin-bottom: 5px; */
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.div-search{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  width: 50vw;
+  height: 40px;
+  position: relative;
+  background-color: rgba(184, 184, 184, 0.1);
+  border-bottom: 2px solid rgba(230, 222, 222, 0.3);
+  border-right: 1px solid rgba(230, 222, 222, 0.3);
+  border-radius: 20px;
+  /* box-shadow: 0 0 7px rgba(239, 242, 245, 0.5); */
+  backdrop-filter: blur(1rem);
+  /* border: 2px solid red; */
+}
+
+.search-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: 1rem;
+  color: grey;
+}
+
+.search-input {
+  flex: 1 1 0%;
+  background-color: transparent;
+  border-style: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 1rem;
+  color: white;
+}
+
+.div-search:hover> .search-icon, .search-input{
+  color: #a7bde9;
+}
+
+.button-sign{
+  /* position: absolute; */
+  color: #fff;
+  /* top: 1px; */
+  /* height: 15px;
+  width: 15px;
+  bottom: 1.2rem;
+  right: 1.2rem; */
+  background-color: transparent;
+  background-color: #5c92ff;
+  /* border: 2px solid #5c92ff; */
+  border-radius: 6px;
+  padding: 8px 20px;
+  text-decoration: none;
+  outline: none;
+  /* border: none; */
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s linear;
+  cursor: pointer;
+  /* margin: 2px; */
+}
+
+.button-sign:hover{
+  border: 2px solid #5c92ff;
+  background-color: transparent;
+}
